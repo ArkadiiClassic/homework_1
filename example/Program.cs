@@ -6,7 +6,8 @@ namespace example
     {
         static void Main(string[] args)
         {
-            // Домашняя работа №1
+            // Домашняя работа №1 
+            // Архиреев Аркадий 
             /* 1. Написать программу «Анкета». Последовательно задаются вопросы(имя, фамилия, возраст, рост, вес). 
             В результате вся информация выводится в одну строчку:
                 а) используя склеивание;
@@ -29,8 +30,7 @@ namespace example
                 + age + ", рост: " + growth + " и вес:" + weight + ";");
 
             //использование форматированного вывода
-            Console.WriteLine("{0}, {1}, {2:D}, {3:F2}, {4:F2}",
-                name, surname, age, growth, weight);
+            Console.WriteLine("{0}, {1}, {2:D}, {3:F2}, {4:F2}", name, surname, age, growth, weight);
 
             //использование вывода со знаком $.
             Console.WriteLine($"{name}, {surname}, {age}, {growth}, {weight}");
