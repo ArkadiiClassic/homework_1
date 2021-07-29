@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Example_3
 {
@@ -13,6 +14,7 @@ namespace Example_3
                 используя спецификатор формата .2f (с двумя знаками после запятой);
                   б) *Выполнить предыдущее задание, оформив вычисления расстояния между точками в виде метода.*/
 
+            // a)
             Console.Write("Введите x1: ");
             var x1 = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите y1: ");
@@ -22,8 +24,8 @@ namespace Example_3
             Console.Write("Введите y2: ");
             var y2 = Convert.ToDouble(Console.ReadLine());
 
-            var r = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-            Console.WriteLine($"Результат: {r:f2};");
+            var a = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            Console.WriteLine($"Результат: {a:f2};");
         }
     }
 }
