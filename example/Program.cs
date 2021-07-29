@@ -25,14 +25,14 @@ namespace example
             Console.Write("Введите свой вес: ");
             var weight = Convert.ToDouble(Console.ReadLine());
 
-            //использование склеивания
+            // a) использование склеивания
             Console.WriteLine("Имя: " + name + ", фамилия: " + surname + ", возраст: "
                 + age + ", рост: " + growth + " и вес:" + weight + ";");
 
-            //использование форматированного вывода
+            // б) использование форматированного вывода
             Console.WriteLine("{0}, {1}, {2:D}, {3:F2}, {4:F2}", name, surname, age, growth, weight);
 
-            //использование вывода со знаком $.
+            // в) использование вывода со знаком $.
             Console.WriteLine($"{name}, {surname}, {age:D}, {growth:F2}, {weight:F2}");
         }
     }

@@ -16,12 +16,12 @@ namespace example_4
             Console.Write("Введите b: ");
             var b = Convert.ToInt32(Console.ReadLine());
 
-            // а
+            // а)
             int c = a;
             a = b;
             b = c;
 
-            // б
+            // б)
             /*a = a + b;
             b = b - a;
             b = -b;
