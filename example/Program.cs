@@ -13,7 +13,7 @@ namespace example
                 а) используя склеивание;
                 б) используя форматированный вывод;
                 в) используя вывод со знаком $.*/
-
+            
             Console.Write("Введите своё имя: ");
             var name = Convert.ToString(Console.ReadLine());
             Console.Write("Введите свою фамилию: ");
@@ -33,7 +33,7 @@ namespace example
             Console.WriteLine("{0}, {1}, {2:D}, {3:F2}, {4:F2}", name, surname, age, growth, weight);
 
             //использование вывода со знаком $.
-            Console.WriteLine($"{name}, {surname}, {age}, {growth}, {weight}");
+            Console.WriteLine($"{name}, {surname}, {age:D}, {growth:F2}, {weight:F2}");
         }
     }
 }
